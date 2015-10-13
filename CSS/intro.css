@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+#INTRO {
+	width: 726px;
+}
+#INTRO div.header {
+	height: 47px;
+	position: relative;
+	margin-left: 0px;
+	padding-left: 0px;
+	left: 0px;
+	width: 726px;
+}
+#INTRO div.header a, #INTRO div.header a:visited , #INTRO div.header a:active, #INTRO div.header a:link{
+	color: #FFF0BD;
+	text-decoration: none;
+}
+#INTRO div.header a:hover {
+	text-decoration: none;
+	color: #FF0;
+}
+
+#INTRO div.header h6 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #fff0bd;
+	position: absolute;
+	top: 23px;
+	left: 0px;
+	text-align: right;
+	width: 720px;
+	margin-left: 0px;
+}
+#INTRO div.content {
+	background-image: url(../images/page_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	padding: 25px;
+	line-height: 20px;
+}
+#INTRO div.content P {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#INTRO div.content h1  {
+	font-size: 15px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	line-height: 26px;
+	color: #f2ce95;
+	border: 1px solid #714417;
+	padding-right: 4px;
+	padding-left: 4px;
+	letter-spacing: 1px;
+	background-image: url(../images/main/titile_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 26px;
+}
+#INTRO div.content ol {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#INTRO div.content_end {
+	background-image: url(../images/page_bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 24px;
+}
+
+#INTRO div.content table.notice {
+	width: 92%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #96452E;
+}
+
+#INTRO div.content table.notice th {
+	background-color: #823D28;
+	color: #FFF;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 13px;
+}
+#INTRO div.content table.notice td {
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #96452E;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#INTRO div.content table.notice td.subject {
+	text-align: left;
+}
+#INTRO div.content table.notice td.subject a, #INTRO div.content table.notice td.subject a:visited {
+	color: #FFC;
+	text-decoration: none;
+	display: block;
+}
+#INTRO div.content table.notice td.subject a:hover {
+	color: #FC0;
+	text-decoration: none;
+}
+#INTRO div.content table.notice span  {
+	color: #FFF;
+	font-size: 12px;
+	line-height: 18px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 42px;
+}
+#INTRO div.content table.notice span.impo {
+	background-color: #F00;
+}
+#INTRO div.content table.notice span.sysm {
+	background-color: #906;
+}
+#INTRO div.content table.notice span.upda {
+	background-color: #096;
+}
+#INTRO div.content table.notice span.evet {
+	background-color: #C60;
+}
+#INTRO div.content table.notice th.subject {
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 15px;
+	color: #FF0;
+}
+#INTRO div.content table.notice td.news {
+	text-align: left;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	padding-top: 15px;
+	padding-right: 26px;
+	padding-bottom: 35px;
+	padding-left: 26px;
+	border-bottom-color: #96452E;
+	color: #333;
+	background-color: #F1DFD1;
+}
+#INTRO div.content table.notice td.news p {
+	margin-bottom: 0px;
+	margin-top: 12px;
+}
+#INTRO div.content .btn , #INTRO div.content .btn_2{
+	text-align: center;
+	padding-top: 20px;
+}
+#INTRO div.content .btn_2 a, #INTRO div.content .btn_2 a:visited {
+	font-weight: bold;
+	color: #FFF;
+	font-size: 13px;
+	text-decoration: none;
+	background-image: url(../images/btn/btn.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+	line-height: 28px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #974A04;
+}
+#INTRO div.content .btn_2 a:hover {
+	color: #600;
+	text-decoration: none;
+	background-image: url(../images/btn/btn02.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #A27306;
+}
+
+div.page {
+	FONT-SIZE: 12px;
+	COLOR: #CB6F54;
+	PADDING-TOP: 20px;
+	TEXT-ALIGN: center;
+	line-height: normal;
+	font-family: Verdana;
+}
+div.page A {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	COLOR: #CB6F54;
+	MARGIN-RIGHT: 3px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	border: 1px solid #CB6F54;
+}
+div.page  A:hover,  div.page A:active {
+	COLOR: #FFF;
+	BACKGROUND-COLOR: #96452E;
+	border: 1px solid #D58A75;
+}
+div.page SPAN.current {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	PADDING-BOTTOM: 2px;
+	COLOR: #FFF;
+	MARGIN-RIGHT: 3px;
+	PADDING-TOP: 2px;
+	BACKGROUND-COLOR: #96452E;
+	border: 1px solid #630;
+}
+div.page SPAN.disabled {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	COLOR: #444;
+	MARGIN-RIGHT: 3px;
+	PADDING-TOP: 2px;
+	border: 1px solid #444;
+}
+
+#INTRO div.content P {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+#INTRO div.content .img_step {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#INTRO div.content .text{
+	background-color: #fff3e1;
+	color: #333;
+	border: 3px solid #8b4a0b;
+	width: 570px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+
+#INTRO div.content .text h1 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	color: #FC3;
+	font-size: 18px;
+	line-height: 34px;
+	background-image: url(../images/main/titile_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center center;
+	margin-right: -20px;
+	margin-left: -20px;
+	letter-spacing: 1px;
+	height: 34px;
+}
+#INTRO div.content .text h2 {
+	font-size: 13px;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+#INTRO div.content .text div.status {
+	text-align: center;
+	padding: 5px;
+	background-color: #FFCBAC;
+	margin-bottom: 15px;
+	border: 1px solid #C66;
+	margin-top: 10px;
+}
+.aa  {
+	font-weight: bold;
+	color: #900;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+#INTRO div.content .text p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+#INTRO div.content .text p.list_1 {
+	text-indent: -30px;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#INTRO div.content .text ol, div.content .text ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#INTRO div.content .text div.select {
+	background-color: #FFDB97;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #630;
+}
+#INTRO div.content .text div.select th {
+	text-align: right;
+	color: #333;
+	height: 24px;
+	line-height: 26px;
+}
+#INTRO div.content .text div.select td {
+	text-align: left;
+	padding-left: 10px;
+	color: #600;
+	font-weight: bold;
+	line-height: 24px;
+	height: 26px;
+}
+#INTRO div.content .text div.select2 {
+	margin-bottom: 5px;
+}
+
+
+
+#INTRO div.content .text div.select2 th{
+	color: #600;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: left;
+}
+#INTRO div.content .text div.select2 select {
+	font-family: Verdana;
+	font-size: 12px;
+}
+#INTRO div.content .text .note {
+	margin-top: 15px;
+	font-size: 12px;
+}
+

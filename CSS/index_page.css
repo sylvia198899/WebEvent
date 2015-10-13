@@ -1,0 +1,212 @@
+body {
+	background-color: #000;
+	margin: 0px;
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 18px;
+}
+a, a:link, a:visited, a:active {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FC3;
+	text-decoration: none;
+}
+
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+div.meetgee {
+	background-image: url(../images/index/bg_meetgee.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 183px;
+	width: 232px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 48px;
+	position: relative;
+}
+div.meetgee table   {
+	font-size: 12px;
+	width: 190px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.meetgee table td , div.gamer table td{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #713E1C;
+	line-height: 20px;
+	padding-left: 3px;
+}
+div.meetgee .btn_more {
+	position: absolute;
+	left: 164px;
+	top: 9px;
+}
+
+div.gamer {
+	background-image: url(../images/index/bg_gamer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 183px;
+	width: 220px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 48px;
+	position: relative;
+}
+div.gamer table {
+	font-size: 12px;
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.gamer .btn_more {
+	position: absolute;
+	left: 152px;
+	top: 9px;
+}
+div.infor {
+	background-image: url(../images/index/bg_infor.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 183px;
+	width: 263px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 48px;
+	position: relative;
+}
+div.infor .btn_more {
+	position: absolute;
+	left: 195px;
+	top: 9px;
+}
+div.infor table {
+	font-size: 12px;
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.infor table td {
+	text-align: center;
+	padding-bottom: 2px;
+}
+div.infor td a , div.infor td a:visited, div.infor td a:active{
+	background-color: #391208;
+	border: 1px solid #713E1C;
+	color: #FFF;
+	line-height: 20px;
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+div.infor td a:hover {
+	background-color: #6A2102;
+	color: #FC0;
+	border: 1px solid #9D5626;
+}
+div.news {
+	background-image: url(../images/index/bg_news.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 197px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+div.news .btn_more {
+	position: absolute;
+	left: 432px;
+	top: 10px;
+}
+div.news div.tab {
+	position: absolute;
+	top: 13px;
+	left: 135px;
+	z-index: 2;
+}
+div.news div.tab a {
+	margin-right: 2px;
+}
+div.news_content  {
+	position: absolute;
+	width: 450px;
+	top: 46px;
+	left: 26px;
+	z-index: 1;
+}
+div.news_content table {
+	width: 100%;
+}
+div.news_content td {
+	text-align: center;
+	line-height: 19px;
+}
+
+
+
+div.news_content td span  {
+	color: #FFF;
+	font-size: 11px;
+	line-height: 16px;
+	display: inline-block;
+	width: 34px;
+	font-family: Verdana;
+}
+div.news_content td span.impo {
+	background-color: #F00;
+}
+div.news_content td span.sysm {
+	background-color: #906;
+}
+div.news_content td span.upda {
+	background-color: #096;
+}
+div.news_content td span.evet {
+	background-color: #C60;
+}
+
+div.news_content td.subject {
+	text-align: left;
+	padding-left: 6px;
+}
+div.news_content td.subject a, div.news_content td.subject a:visited {
+	display: block;
+}
+div.news_content td.subject a:hover {
+	color: #FC3;
+
+}
+div.scrn {
+	background-image: url(../images/index/scrn.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 103px;
+	width: 725px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 41px;
+	position: relative;
+}
+div.scrn .btn_more {
+	position: absolute;
+	left: 656px;
+	top: 9px;
+}
+div.scrn .image {
+	padding-left: 20px;
+}
+div.scrn .image img {
+	margin-right: 5px;
+}

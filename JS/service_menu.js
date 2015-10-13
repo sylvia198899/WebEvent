@@ -1,0 +1,10 @@
+document.write("<table border='0' cellspacing='0' cellpadding='0'>");
+document.write("<tr><td><a href='http://tw.beanfun.com/customerservice/' target='_blank'>客服專區</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='http://tw.beanfun.com/customerservice/www/faq.aspx' target='_blank'>客服FAQ</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='http://tw.beanfun.com/customerservice/www/concact.html' target='_blank'>連絡我們</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='https://tw.login.beanfun.com/loginform.aspx?otp1=201202e68274d83a2741&amp;pageFlag=-1' target='_blank'>消費查詢</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='https://tw.event.beanfun.com/Alliance/Exchange/ExChange.aspx' target='_blank'>序號中心</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='service.html'>遊戲服務專區</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='rules.html'>遊戲服務管理規章</a>&nbsp;</td></tr>");
+document.write("<tr><td><a href='contract.html'>遊戲服務合約書</a>&nbsp;</td></tr>");
+document.write("</table>");
